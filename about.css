@@ -58,7 +58,6 @@
 .left2{
     width: 35%;
     height: 50vh;
-    border: 2px solid yellow;
 }
 .left2 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -74,12 +73,10 @@
 .right2{
     width: 35%;
     height: 50vh;
-    border: 2px solid orange;
 }
 .box{
     width: 100%;
     height: 30vh;
-    border: 2px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -93,19 +90,76 @@
 .box1 h3{
     font-size: 10px;
 }
+.barr{
+    width: 100%;
+    height: vh;
+    display: flex;
+    justify-content: center;
+}
 .bar{
-    width: 40%;
-    height: 1vh;
-    border: 1px solid lightgray;
+    width: 90%;
+    height: 3vh;
+    border: 1.5px solid lightgray;
     display: flex;
     justify-content: start;
     align-items: center;
-    border-radius: 19%;
+    border-radius: 22px;
+
 }
 .bks-bar{
+    width: 85%;
+    height: 0vh;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
+.ok{
+    display: flex;
+    justify-content: end;
+}
+.ok h3{
+    font-size: 13px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.bks-bar1{
     width: 90%;
     height: 0vh;
     border: 2px solid deepskyblue;
     background-color: deepskyblue;
     border-radius: 5px;
+}
+.bks-bar2{
+    width: 70%;
+    height: 0vh;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
+.bks-bar3{
+    width: 95%;
+    height: 0vh;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
+.bks-bar4{
+    width: 75%;
+    height: 0vh;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
+.offering{
+    width: 100%;
+    height: 110vh;
+    border: 2px solid black;
+}
+.navbar-offering{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
 }
