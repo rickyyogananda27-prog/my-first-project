@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+}
+.bks-navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.left p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right{
+    
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bks-right a{
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bks-right{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.data{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: end;
+}
+.bks-data{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.left2{
+    width: 35%;
+    height: 50vh;
+    border: 2px solid yellow;
+}
+.left2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.left2 h3{
+    font-size: 13px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.right2{
+    width: 35%;
+    height: 50vh;
+    border: 2px solid orange;
+}
+.box{
+    width: 100%;
+    height: 30vh;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1{
+    width: 29%;
+    height: 20vh;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 2%;
+}
+.box1 h3{
+    font-size: 10px;
+}
+.bar{
+    width: 40%;
+    height: 1vh;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 19%;
+}
+.bks-bar{
+    width: 90%;
+    height: 0vh;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
